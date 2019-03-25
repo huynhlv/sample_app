@@ -5,3 +5,4 @@ app:
       email_max_length: 255
       pass_max_length: 6
       gravatar_size: 80
+  yes_remmeber: "1"
