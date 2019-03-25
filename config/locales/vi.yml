@@ -1,0 +1,6 @@
+vi:
+  static_pages:
+    about:
+      title: "Thông tin"
+    help:
+      title: "Hỗ trợ"
