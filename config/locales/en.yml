@@ -16,6 +16,11 @@ en:
       home: "Home"
       help: "Help"
       login: "Login"
+      users: Users
+      account: Account
+      profile: Profile
+      settings: Settings
+      logout: Log out
   static_pages:
     about:
       title: "About"
@@ -54,4 +59,13 @@ en:
       error:
         one: "%{count} error"
         other: "%{count} errors"
-
+  sessions:
+    new:
+      title: Log in
+      email: Email
+      password: Password
+      login: Login
+      sign_up_now: Sign up now!
+      new_user: New user?
+  user:
+    invalid_email_pass: Invalid email/password combination
