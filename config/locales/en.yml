@@ -1,4 +1,8 @@
 en:
+  controllers:
+    users_controller:
+      welcome_sample: "Welcome to the Sample App!"
+      user_not_found: "This user is not existed!"
   layouts:
     application:
       base_title: "Ruby on Rails Tutorial Sample App"
@@ -38,3 +42,16 @@ en:
     new:
       title: "Sign up"
       sign_up_page: "This will be a signup page for new users."
+      button_create: "Create my account"
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      confirm: "Confirmation"
+
+  shared:
+    error_messages:
+      form_contains: "The form contains"
+      error:
+        one: "%{count} error"
+        other: "%{count} errors"
+
