@@ -32,7 +32,9 @@ en:
       welcome: "Welcome to the Sample App"
       page_for: "This is the home page for the"
       sample_app: "sample application"
+      rubyonrails: "Ruby on Rails Tutorial"
 
   users:
     new:
       title: "Sign up"
+      sign_up_page: "This will be a signup page for new users."
