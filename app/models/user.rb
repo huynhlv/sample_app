@@ -10,7 +10,8 @@ class User < ApplicationRecord
     uniqueness: {case_sensitive: false}
   has_secure_password
   validates :password, presence: true,
-    length: {minimum: Settings.app.model.user.pass_max_length}
+    length: {minimum: Settings.app.model.user.pass_max_length},
+    allow_nil: true
 
   class << self
     # Return the hash digest of the given string.
