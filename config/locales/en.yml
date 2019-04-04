@@ -3,6 +3,10 @@ en:
     users_controller:
       welcome_sample: "Welcome to the Sample App!"
       user_not_found: "This user is not existed!"
+      profile_updated: Profile updated
+      please_login: Please log in.
+      user_deleted: User deleted
+      user_delete_error: User delete error
   layouts:
     application:
       base_title: "Ruby on Rails Tutorial Sample App"
@@ -48,10 +52,21 @@ en:
       title: "Sign up"
       sign_up_page: "This will be a signup page for new users."
       button_create: "Create my account"
+    edit:
+      title: Edit user
+      update_profile: Update your profile
+      save_change: Save changes
+      change: change
+    form:
       name: "Name"
       email: "Email"
       password: "Password"
       confirm: "Confirmation"
+    index:
+      title: All users
+    user:
+      delete: delete
+      you_sure: You sure?
 
   shared:
     error_messages:
