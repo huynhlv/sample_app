@@ -1,4 +1,8 @@
 en:
+  account_activations:
+    edit:
+      invalid_activation: Account activated!
+      account_activated: Invalid activation link
   controllers:
     users_controller:
       welcome_sample: "Welcome to the Sample App!"
@@ -7,6 +11,7 @@ en:
       please_login: Please log in.
       user_deleted: User deleted
       user_delete_error: User delete error
+      please_check: Please check your email to activate your account.
   layouts:
     application:
       base_title: "Ruby on Rails Tutorial Sample App"
@@ -47,6 +52,10 @@ en:
       sample_app: "sample application"
       rubyonrails: "Ruby on Rails Tutorial"
 
+  user_mailer:
+    account_activation:
+      activate: Activate
+
   users:
     new:
       title: "Sign up"
@@ -84,3 +93,5 @@ en:
       new_user: New user?
   user:
     invalid_email_pass: Invalid email/password combination
+    check_you_email: Account not activated. Check your email for the 
+      activation link.
