@@ -5,6 +5,7 @@ app:
       email_max_length: 255
       pass_max_length: 6
       gravatar_size: 80
+      time_expired_reset: 2
   yes_remmeber: "1"
   page_user:
     per_page: 20

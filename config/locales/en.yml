@@ -55,6 +55,8 @@ en:
   user_mailer:
     account_activation:
       activate: Activate
+    password_reset:
+      reset_password: Reset password
 
   users:
     new:
@@ -91,7 +93,26 @@ en:
       login: Login
       sign_up_now: Sign up now!
       new_user: New user?
+      forgot_password: forgot password
   user:
     invalid_email_pass: Invalid email/password combination
     check_you_email: Account not activated. Check your email for the 
       activation link.
+  
+  password_resets:
+    create:
+      email_sent_password: Email sent with password reset instructions
+      email_not_found: Email address not found
+    new:
+      title: Forgot password
+      submit: Submit
+    edit:
+      title: Reset password
+      update: Update password
+      confirmation: Confirmation
+      password: Password
+    update:
+      can_not_empty: can't be empty
+      password_reset_success: Password has been reset.
+    before_action:
+      password_reset_expired: Password reset has expired.
