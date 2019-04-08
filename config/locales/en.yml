@@ -51,7 +51,17 @@ en:
       page_for: "This is the home page for the"
       sample_app: "sample application"
       rubyonrails: "Ruby on Rails Tutorial"
-
+  microposts:
+    micropost:
+      posted: Posted
+      ago: ago.
+      you_sure: You sure?
+    create:
+      micropost_created: "Micropost created!"
+    destroy:
+      micropost_deleted: "Micropost deleted"
+      micropost_deleted_fail: Micropost delete error!
+      micropost_not_found: Micropost not found!
   user_mailer:
     account_activation:
       activate: Activate
@@ -78,6 +88,8 @@ en:
     user:
       delete: delete
       you_sure: You sure?
+    show:
+      microposts: Microposts
 
   shared:
     error_messages:
@@ -85,6 +97,14 @@ en:
       error:
         one: "%{count} error"
         other: "%{count} errors"
+    user_info:
+      micropost:
+        one: "%{count} micropost"
+        other: "%{count} microposts"
+    micropost_form:
+      compose_new_micro: Compose new micropost...
+      post: Post
+      maximum_size_err: Maximum file size is 5MB. Please choose a smaller file.
   sessions:
     new:
       title: Log in

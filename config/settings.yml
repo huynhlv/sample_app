@@ -10,4 +10,8 @@ app:
   page_user:
     per_page: 20
     size_avatar: 50
-
+  micropost:
+    image_accept: "image/jpeg,image/gif,image/png"
+    image_size_mb: 5
+    content_length: 140
+    
