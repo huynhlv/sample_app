@@ -5,6 +5,7 @@ app:
       email_max_length: 255
       pass_max_length: 6
       gravatar_size: 80
+      gravatar_size_follow: 40
       time_expired_reset: 2
   yes_remmeber: "1"
   page_user:
@@ -14,4 +15,10 @@ app:
     image_accept: "image/jpeg,image/gif,image/png"
     image_size_mb: 5
     content_length: 140
-    
+
+config:
+  production:
+    host: "https://rails-sample-app-huynhlv.herokuapp.com/"
+    user_name: "dragonballlegend0111@gmail.com"
+    password: "son_goku"
+
