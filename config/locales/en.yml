@@ -90,6 +90,14 @@ en:
       you_sure: You sure?
     show:
       microposts: Microposts
+    follow:
+      follow: Follow
+    unfollow:
+      unfollow: Unfollow
+    following:
+      following: Following
+    followers:
+      followers: Followers
 
   shared:
     error_messages:
@@ -101,10 +109,14 @@ en:
       micropost:
         one: "%{count} micropost"
         other: "%{count} microposts"
+      view_my_profile: view my profile
     micropost_form:
       compose_new_micro: Compose new micropost...
       post: Post
       maximum_size_err: Maximum file size is 5MB. Please choose a smaller file.
+    stats:
+      following: following
+      followers: followers
   sessions:
     new:
       title: Log in

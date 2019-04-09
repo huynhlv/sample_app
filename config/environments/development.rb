@@ -54,11 +54,19 @@ Rails.application.configure do
 
   config.action_mailer.raise_delivery_errors = true
   config.action_mailer.delivery_method = :test
-  host = "localhost:3000" # Don't use this literally; use your local dev host instead
-  # Use this on the cloud IDE.
-  # config.action_mailer.default_url_options = { host: host, protocol: 'https' }
-  # Use this if developing on localhost.
-  config.action_mailer.default_url_options = { host: host, protocol: "http" }
+  host = "localhost:3000"                     # Local server
+  config.action_mailer.default_url_options = { host: host, protocol: 'http' }
+
+  config.action_mailer.delivery_method = :smtp
+
+  config.action_mailer.smtp_settings = {
+    :address => "smtp.gmail.com",
+    :port => 587,
+    :user_name => Settings.config.production.user_name,
+    :password => Settings.config.production.password,
+    :authentication => :plain,
+    :enable_starttls_auto => true
+  }
 
   config.middleware.use I18n::JS::Middleware
 end
